@@ -10,7 +10,7 @@ const BENCHMARK_DURATION = "30s";
 const CONCURRENCY = 500;
 
 const BUN_DEBUG = `${process.env.HOME}/ghq/github.com/oven-sh/bun/build/debug/bun-debug`;
-const HONO_SERVER = `${process.env.HOME}/development/hono-webapp/hono-server.js`;
+const HONO_SERVER = "./hono-server.js";
 
 async function waitForServer(url: string, maxAttempts = 30): Promise<boolean> {
   console.log(`   Checking ${url}...`);
