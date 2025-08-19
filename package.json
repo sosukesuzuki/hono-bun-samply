@@ -1,0 +1,13 @@
+{
+  "name": "hono-bun-samply",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun run hono-server.js",
+    "dev": "bun --watch hono-server.js",
+    "bench": "bun run ./benchmark.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.14"
+  }
+}
