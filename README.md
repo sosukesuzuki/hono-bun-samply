@@ -19,7 +19,7 @@ bun install
 The following script starts hono-server.js with Bun while recording with samply, and sends requests using bombardier.
 
 ```
-bun run bench
+bun run profile
 ```
 
 After sufficient requests have been sent, samply will generate `hono-profile.json`.

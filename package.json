@@ -5,7 +5,7 @@
   "scripts": {
     "start": "bun run hono-server.js",
     "dev": "bun --watch hono-server.js",
-    "bench": "bun run ./benchmark.ts"
+    "profile": "bun run ./profile.ts"
   },
   "dependencies": {
     "hono": "^4.6.14"
